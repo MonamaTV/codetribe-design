@@ -5,18 +5,18 @@ function App() {
     <div className="bg-black h-screen w-screen px-20 py-5">
       <Nav />
 
-      <div className="container text-white flex flex-row justify-around items-center py-5 h-[70%] px-24">
+      <div className="container text-white flex flex-row justify-around items-center py-5 h-[70%] px-20">
         <div className="space-y-4 w-2/3">
-          <h1 className="text-7xl capitalize font-semibold">
+          <h1 className="text-5xl md:text-7xl capitalize font-semibold">
             Discover the best properties in Sukrakarta
           </h1>
           <p className="text-gray-500">
             Lorem Ipsum is simply text of the printing typesetting industry
           </p>
-          <button className="bg-orange-500 px-4 py-2 rounded-md text-white block mb-10">
+          <button className="bg-orange-700 px-4 py-2 rounded-md text-white block mb-10">
             Get started
           </button>
-          <div className="flex flex-row w-2/3 justify-center items-center text-white gap-3 text-center gap-y-11">
+          <div className="flex flex-row w-full justify-center items-center text-white gap-3 text-center gap-y-11">
             <div className="flex flex-col">
               <p>12</p>
               <small className="text-gray-400">Years Experience</small>
@@ -31,7 +31,7 @@ function App() {
             </div>
           </div>
         </div>
-        <img src={image} alt="House" className="rounded-md w-1/3" />
+        <img src={image} alt="House" className="rounded-md w-2/5" />
       </div>
     </div>
   );
